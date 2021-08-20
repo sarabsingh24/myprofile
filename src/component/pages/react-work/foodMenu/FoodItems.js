@@ -10,7 +10,7 @@ export default function FoodItems({ items }) {
     <div>
       <Box
         display="flex"
-        justifyContent={IsDesktop ? "left" : "center"}
+        justifyContent="center"
         flexWrap="wrap"
         p={1}
         m={1}

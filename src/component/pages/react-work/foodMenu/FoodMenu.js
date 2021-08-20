@@ -25,13 +25,13 @@ export default function OurMenu() {
     setMenuitems(newItems);
   };
   return (
-    <div>
-      <Header />
+    <>
+      {/* <Header /> */}
       <section className="page-container">
         {/* <Menupage mymenu={menuItems} /> */}
         <Topmenu filterItems={filterItems} categories={categories} />
         <Fooditems items={menuItems} />
       </section>
-    </div>
+    </>
   );
 }

@@ -20,12 +20,12 @@ export default function TopMenu({ filterItems, categories }) {
         justifyContent="center"
         flexDirection="row"
         p={1}
-        mt={6}
+        mt={0}
       >
         {menuItems.map((name) => {
           return (
             <Box p={1} key={name}>
-              <Button variant="outlined" onClick={() => filterItems(name)}>
+              <Button variant="outlined" onClick={() => filterItems(name)} size="small">
                 {name}
               </Button>
             </Box>

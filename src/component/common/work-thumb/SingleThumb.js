@@ -1,12 +1,22 @@
 import React from "react";
 import Paper from "@material-ui/core/Paper";
 import Button from "@material-ui/core/Button";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
+import { PopupContext } from "../../pages/home/Home";
 import "./style.css";
-export default function SingleThumb({ type, tool, layout, url, id }) {
+export default function SingleThumb({
+  comp,
+  type,
+  tool,
+  layout,
+  image,
+  id,
+  btnTxt,
+  component,
+  popup,
+  skill
+}) {
   const [name, setName] = React.useState("relative");
-
-  
 
   const animationEffect = React.useRef(null);
 
@@ -16,6 +26,13 @@ export default function SingleThumb({ type, tool, layout, url, id }) {
   const mouseOutHandeler = () => {
     animationEffect.current.classList = name;
   };
+
+  const viewBtn = () => {
+    if (popup) {
+      return;
+    }
+  };
+
   return (
     <div
       className={name}
@@ -23,34 +40,48 @@ export default function SingleThumb({ type, tool, layout, url, id }) {
       onMouseOver={mouseOverHandeler}
       onMouseLeave={mouseOutHandeler}
     >
-      <Paper elevation={0} className="relative">
+      <div elevation={0} className="relative bg-shadow">
         <div className="animited-box">
-          <Button
-            variant="contained"
-            color="secondary"
-            size="small"
-            className="view-btn"
-            to={`/preview/${id}`}
-            component={Link}
-            
-          >
-            Click to view
-          </Button>
+          <PopupContext.Consumer>
+           
+            {(popupHandeler) => {
+              return (
+
+                
+                <Button
+                  variant="contained"
+                  color="secondary"
+                  size="small"
+                  className="view-btn"
+                  to={`/preview/${id}`}
+                component = { Link}
+                  // onClick={popup && (() => popupHandeler(component, comp))}
+                  // href={!popup && component}
+                  // target={!popup && "_blank"}
+                >
+                  {btnTxt}
+                </Button>
+              );
+            }}
+          </PopupContext.Consumer>
         </div>
 
-        <img src={url} alt={type} className="thumb-image" />
+        <img src={image} alt={comp} className="thumb-image" />
         <div className="thumb-info">
-          <div className="txt-small">
-            <span className="txt-lable">Type:</span> {type}
+          <div className="temp-type">
+            <span className="txt-lable"></span> {comp}
           </div>
           <div className="txt-small">
-            <span className="txt-lable">Tool:</span>
+            <span className="txt-lable">
+               <small>{type}</small> <img src={skill} alt="logo" style={{width:"80px"}} />
+            </span>
+            {/* <span className="txt-lable">Tool:</span>
             {tool.map((item, index) => {
               return <span key={index}> {item}, </span>;
-            })}
+            })} */}
           </div>
         </div>
-      </Paper>
+      </div>
     </div>
   );
 }

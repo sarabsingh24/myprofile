@@ -1,16 +1,21 @@
 .banner-height {
   
-  background: var(--purple6);
+  
   margin-top: 60px;
+  background: url('../../../asset/home/main-bg-map.png');
+background-color: var(--purple6);
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /* height: 100vh; */
 }
 .banner-container{
   display:grid;
-  grid-template-columns: 1fr 500px;
-  
+  grid-template-columns: repeat(auto-fit, minmax( 320px,1fr));
   align-items: center;
   max-width: 1180px;
   margin:0 auto;
-  padding:40px;
+  padding:40px 16px;
 
 }
 
@@ -22,6 +27,7 @@
 }
 .left-side{
   max-width: 420px;
+  color:var(--clr-grey-2);
 }
 .right-side{
   margin: 0 auto;
@@ -30,4 +36,14 @@
   
   color:var(--clr-grey-5);
   padding-bottom:20px;
+}
+
+@media (max-width:980px){
+  .right-side{
+ display:none
+}
+.left-side{
+  max-width: 100%;
+  text-align: center;
+}
 }

@@ -1,12 +1,12 @@
-import item1 from "../../assets/item-1.jpeg";
-import item2 from "../../assets/item-2.jpeg";
-import item3 from "../../assets/item-3.jpeg";
-import item4 from "../../assets/item-4.jpeg";
-import item5 from "../../assets/item-5.jpeg";
-import item6 from "../../assets/item-6.jpeg";
-import item7 from "../../assets/item-7.jpeg";
-import item8 from "../../assets/item-8.jpeg";
-import item9 from "../../assets/item-9.jpeg";
+import item1 from "../../../../asset/images/food-menu/item-1.jpeg";
+import item2 from "../../../../asset/images/food-menu/item-2.jpeg";
+import item3 from "../../../../asset/images/food-menu/item-3.jpeg";
+import item4 from "../../../../asset/images/food-menu/item-4.jpeg";
+import item5 from "../../../../asset/images/food-menu/item-5.jpeg";
+import item6 from "../../../../asset/images/food-menu/item-6.jpeg";
+import item7 from "../../../../asset/images/food-menu/item-7.jpeg";
+import item8 from "../../../../asset/images/food-menu/item-8.jpeg";
+import item9 from "../../../../asset/images/food-menu/item-9.jpeg";
 
 const menu = [
   {

@@ -1,43 +1,51 @@
 import React from "react";
-import { makeStyles } from '@material-ui/core/styles';
-import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
-import Container from '../container';
+import { makeStyles } from "@material-ui/core/styles";
+import Button from "@material-ui/core/Button";
+import Typography from "@material-ui/core/Typography";
+import Container from "../container";
 import Box from "@material-ui/core/Box";
-import "./style.css";
+import sarab_pic from "../../../asset/home/sarab.png";
 import { Grid } from "@material-ui/core";
 
-
+import cv from "../../../asset/home/sarab_UI_Designer_WFH.pdf";
+import "./style.css";
 
 export default function Index() {
- 
   return (
     <section className="banner-height">
       <div className="banner-container">
         <article className="left-side">
           <Typography variant="h4" gutterBottom>
-            Sarab Singh
+            Sarab Preet Singh
           </Typography>
 
           <Typography variant="h6" gutterBottom>
-            I'm Front End Devloper
+            I'm a Front End Devloper
           </Typography>
           <Typography
             variant="subtitle2"
             className="small-discription"
             gutterBottom
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            mollis, sem id aliquam posuere, augue mi venenatis sapien.
+            I have 15+ years of experience in this field. I have an expert level
+            of knowledge in HTML5, CSS3, JavaScript, React JS and Sketch.
           </Typography>
 
-          <Button variant="contained" color="secondary" size="medium">
-            Portfolio
+          <Button
+            variant="outlined"
+            color="secondary"
+            size="small"
+            href={cv}
+            target="_blank"
+          >
+            Download CV
           </Button>
         </article>
 
         <article className="right-side">
-          <div className="img-border"></div>
+          <div className="img-border">
+            <img src={sarab_pic} alt="sarab pic" />
+          </div>
         </article>
       </div>
     </section>
