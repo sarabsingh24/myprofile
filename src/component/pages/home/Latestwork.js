@@ -42,7 +42,7 @@ export default function Index() {
           display="block"
           gutterBottom
         >
-          PORTFOLIO
+          PORTFOLIO--
         </Typography>
         <Typography variant="h5" align="center" display="block" gutterBottom>
           My Latest Work
