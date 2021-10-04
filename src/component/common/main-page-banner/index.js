@@ -7,7 +7,7 @@ import Box from "@material-ui/core/Box";
 import sarab_pic from "../../../asset/home/sarab.png";
 import { Grid } from "@material-ui/core";
 
-import cv from "../../../asset/home/sarab_UI_Designer_WFH.pdf";
+import cv from "../../../asset/home/sarab_FrontEnd.pdf";
 import "./style.css";
 
 export default function Index() {
@@ -20,7 +20,7 @@ export default function Index() {
           </Typography>
 
           <Typography variant="h6" gutterBottom>
-            I'm a Front End Devloper
+            I'm a Front End Developer
           </Typography>
           <Typography
             variant="subtitle2"
@@ -28,7 +28,7 @@ export default function Index() {
             gutterBottom
           >
             I have 15+ years of experience in this field. I have an expert level
-            of knowledge in HTML5, CSS3, JavaScript, React JS and Sketch.
+            of knowledge in React, JavaScript, HTML5, CSS3 and GitHub
           </Typography>
 
           <Button
