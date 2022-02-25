@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
   //     flexWrap: "wrap",
   //   },
   margin: {
-    marginTop : theme.spacing(3),
+    marginTop: theme.spacing(3),
   },
   //   withoutLabel: {
   //     marginTop: theme.spacing(3),
@@ -35,9 +35,8 @@ export default function ContactForm() {
         display="block"
         gutterBottom
       >
-        Feel free to get in touch with me with anything related to work,  I will get back to you soon. <br />
-        My mail Id: 
-        
+        Feel free to send any query, I will get back to you soon. <br />
+        My mail Id:
         <a href="mailto:sarabpreet33@gmail.com" className="mail-id">
           sarabpreet33@gmail.com
         </a>
