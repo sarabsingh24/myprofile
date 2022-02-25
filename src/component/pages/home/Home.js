@@ -35,7 +35,7 @@ export default function Home() {
       <PopupContext.Provider value={popupHandeler}>
         <Latestwork />
       </PopupContext.Provider>
-      {/* <Experiance /> this */}
+      {/* <Experiance /> this that */}
       <Services />
       <Contact />
       <Bottomstrip />
