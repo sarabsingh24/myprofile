@@ -12,11 +12,12 @@ import "./style.css";
 export default function Contact() {
   return (
     <section className="contact-bg" id="contact">
-      <div className="google-map-height">
+      {/* <div className="google-map-height">
         <Googlemap />
-      </div>
-
-      <ContactForm />
+      </div> */}
+     
+        <ContactForm />
+     
       {/* 
         <Typography variant="h5" align="center" display="block" gutterBottom>
           Vestibulum ac metus euismod, pulvinar dolor ac, volutpat justo.

@@ -222,18 +222,21 @@
 }
 
 .contact-bg {
-  height: 800px;
+  height: 600px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
   justify-content: center;
   align-items: center;
+  background: url('../../../asset/images/bg_map.webp');
 }
 .google-map-height {
   height: 100%;
+  
 }
 .contact-form {
   max-width: 460px;
   margin: 0 auto;
+  
 }
 
 .mail-id{

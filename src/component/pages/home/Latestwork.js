@@ -5,32 +5,24 @@ import Column from "../../common/column";
 import ProfileLink from "../../common/proflle-link";
 import { workInfo } from "../../data/workInfo";
 import Typography from "@material-ui/core/Typography";
-import { pageScrollTo } from "../../pages";
+// import { pageScrollTo } from "../../pages";
 import "./style.css";
 
 export default function Index() {
   const [skill, setSkill] = React.useState(workInfo);
 
-
-  const skillSet = ( name) => {
-    
+  const skillSet = (name) => {
     let myWork;
 
-    if (name == "All") {
+    if (name === "All") {
       myWork = workInfo;
-      
-    } else{
+    } else {
       myWork = workInfo.filter((skill) => {
         return skill.tool.includes(name);
       });
-      
     }
-     
-      
 
     setSkill(myWork);
-    
-    
   };
 
   return (
@@ -42,10 +34,10 @@ export default function Index() {
           display="block"
           gutterBottom
         >
-          PORTFOLIO--
+          PORTFOLIO
         </Typography>
         <Typography variant="h5" align="center" display="block" gutterBottom>
-          My Latest Work-----
+          My Latest Work
         </Typography>
 
         <ProfileLink skillFun={skillSet} />

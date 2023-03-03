@@ -20,25 +20,24 @@ export default function Index() {
           </Typography>
 
           <Typography variant="h6" gutterBottom>
-            I'm a Front End Developer
+            I am a Web Developer
           </Typography>
           <Typography
             variant="subtitle2"
             className="small-discription"
             gutterBottom
           >
-            I have 15+ years of experience in this field. I have an expert level
-            of knowledge in React, JavaScript, HTML5, CSS3 and GitHub
+            I have 15+ years of experience in web Development.
           </Typography>
 
           <Button
             variant="outlined"
             color="secondary"
             size="small"
-            href={cv}
+            href={"mailto:sarabpreet33@gmail.com"}
             target="_blank"
           >
-            Download CV
+            Contact Now
           </Button>
         </article>
 

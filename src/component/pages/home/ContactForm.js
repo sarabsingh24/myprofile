@@ -26,20 +26,26 @@ export default function ContactForm() {
   const classes = useStyles();
   return (
     <div className="contact-form">
-      <Typography variant="h5" align="center" display="block" gutterBottom>
-        Contact
+      <Typography variant="h4" align="center" display="block" gutterBottom>
+        Find your solution
       </Typography>
+
       <Typography
         variant="subtitle1"
         align="center"
         display="block"
         gutterBottom
       >
-        Feel free to get in touch, I will get back to you soon. <br />
-        My mail Id:
+        Feel free to contact at; <br />
         <a href="mailto:sarabpreet33@gmail.com" className="mail-id">
           sarabpreet33@gmail.com
         </a>
+        <Typography variant="div" align="center" display="block" gutterBottom>
+          132, III, A V Nagar, Delhi, India
+        </Typography>
+        <Typography variant="h6" align="center" display="block" gutterBottom>
+          91-9899 6490 53
+        </Typography>
       </Typography>
       {/*       
       <TextField

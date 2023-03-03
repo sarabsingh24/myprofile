@@ -8,7 +8,7 @@ export default function Index() {
   return (
     <section className="bottom-strip ">
       <div className="bottom-strip-container">
-        <div> ©copyright sarabpreetsingh</div>
+        <div> © copyright | sarab preet singh</div>
         <small>
           <span className="social-icon">
             <FacebookIcon />
