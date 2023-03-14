@@ -20,14 +20,15 @@ export default function Index() {
           </Typography>
 
           <Typography variant="h6" gutterBottom>
-            I'm a Web Developer
+            Web Developer
           </Typography>
           <Typography
             variant="subtitle2"
             className="small-discription"
             gutterBottom
           >
-            I have 15+ years of experience in web development.
+            I worked with top level MNCs. I have 15+
+            years of experiance in web development field.
           </Typography>
 
           <Button
