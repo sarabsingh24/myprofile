@@ -36,7 +36,7 @@ export default function ContactForm() {
         display="block"
         gutterBottom
       >
-        Feel free to contact at; <br />
+        Feel free to contact <br />
         <a href="mailto:sarabpreet33@gmail.com" className="mail-id">
           sarabpreet33@gmail.com
         </a>
@@ -46,6 +46,12 @@ export default function ContactForm() {
         <Typography variant="h6" align="center" display="block" gutterBottom>
           91-9899 6490 53
         </Typography>
+      </Typography>
+      <Typography variant="div" align="center" display="block" gutterBottom>
+        132, III, A V Nagar, New Delhi, India
+      </Typography>
+      <Typography variant="h6" align="center" display="block" gutterBottom>
+    91-9899 6490 53
       </Typography>
       {/*       
       <TextField

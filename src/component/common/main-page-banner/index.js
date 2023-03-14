@@ -20,21 +20,22 @@ export default function Index() {
           </Typography>
 
           <Typography variant="h6" gutterBottom>
-            I am a Web Developer
+            Web Developer
           </Typography>
           <Typography
             variant="subtitle2"
             className="small-discription"
             gutterBottom
           >
-            I have 15+ years of experience in web Development.
+            I worked with top level MNCs. I have 15+
+            years of experiance in web development field.
           </Typography>
 
           <Button
             variant="outlined"
             color="secondary"
             size="small"
-            href={"mailto:sarabpreet33@gmail.com"}
+            href="mailto:sarabpreet33@gmail.com"
             target="_blank"
           >
             Contact Now

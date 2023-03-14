@@ -15,15 +15,9 @@ export default function Contact() {
       {/* <div className="google-map-height">
         <Googlemap />
       </div> */}
-     
-        <ContactForm />
-     
-      {/* 
-        <Typography variant="h5" align="center" display="block" gutterBottom>
-          Vestibulum ac metus euismod, pulvinar dolor ac, volutpat justo.
-        </Typography> */}
 
-      {/* <Column>fghgfhfg</Column> */}
+      <ContactForm />
+     
     </section>
   );
 }

@@ -47,7 +47,7 @@ export default function Manulinks({ showMenuHandeler }) {
             className="text-sty"
             onClick={showMenuHandeler}
           >
-            Service Payment
+            Payment
           </Link>
         </Button>
       </div>

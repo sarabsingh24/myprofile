@@ -222,12 +222,12 @@
 }
 
 .contact-bg {
-  height: 600px;
+  height: 480px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
   justify-content: center;
   align-items: center;
-  background: url('../../../asset/images/bg_map.webp');
+  background: url('../../../asset/images/map-bg.jpeg');
 }
 .google-map-height {
   height: 100%;
