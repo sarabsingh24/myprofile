@@ -1,8 +1,0 @@
-.two-column{
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(360px,1fr));
-}
-
-.two-column .about-item{
-    /* border:1px solid red; */
-}
