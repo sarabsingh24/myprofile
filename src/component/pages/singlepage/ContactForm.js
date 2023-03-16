@@ -36,15 +36,15 @@ export default function ContactForm() {
         gutterBottom
       >
         Feel free to contact <br />
-        <a href="mailto:sarabpreet33@gmail.com" className="mail-id">
-          sarabpreet33@gmail.com
+        <a href="mailto:sarabsingh@sarabsinghtech.com" className="mail-id">
+          sarabsingh@sarabsinghtech.com
         </a>
       </Typography>
       <Typography variant="div" align="center" display="block" gutterBottom>
-        132, III, A V Nagar, New Delhi, India
+        132, A V Nagar, New Delhi, India
       </Typography>
       <Typography variant="h6" align="center" display="block" gutterBottom>
-    91-9899 6490 53
+        91-9899 441 446
       </Typography>
       {/*       
       <TextField

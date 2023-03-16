@@ -7,13 +7,13 @@ import Services from "./Services";
 import Popup from "../../common/popup";
 import MainNav from "../../common/main-nav";
 import Contact from "./Contact";
-import Bottomstrip from "../../common/bottom-strip";
+import Bottomstrip from "../../common/bottom-strip/BottomStrip";
 
 import "./style.css";
 
 const PopupContext = React.createContext();
 
-export default function Home() {
+export default function SinglePage() {
   const [popup, setPopup] = React.useState(false);
   const [compo, setCompo] = React.useState("");
   const [type, setType] = React.useState("");
@@ -29,14 +29,13 @@ export default function Home() {
       {popup && <Popup setPopup={setPopup} compo={compo} type={type} />}
       <MainNav />
       <MainPageBanner />
-
       {/* <About /> */}
 
       <PopupContext.Provider value={popupHandeler}>
         <Latestwork />
       </PopupContext.Provider>
-      {/* <Experiance /> */}
       <Services />
+      <Experiance />
       <Contact />
       <Bottomstrip />
     </>

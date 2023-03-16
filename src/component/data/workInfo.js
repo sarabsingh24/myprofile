@@ -41,8 +41,7 @@ const workInfo = [
     skill: react,
     component: <BirthdayAlarm />,
     btnTxt: "Click to view",
-    info:
-      'This is a React Js work, in this component i applied "Filter()" function to remove the listed user and changed the state of birthday list. By clicking "Clear all Button" user can delete the list. "Reset Button" will reset it in it orignal form.',
+    info: 'This is a React Js work, in this component i applied "Filter()" function to remove the listed user and changed the state of birthday list. By clicking "Clear all Button" user can delete the list. "Reset Button" will reset it in it orignal form.',
     featured: [
       "React",
       "HTML",
@@ -67,8 +66,7 @@ const workInfo = [
     skill: hc,
     component: <Htmlwork name="mitech" />,
     btnTxt: "Click to View",
-    info:
-      "This is a neat and clean website. In This website I applied HTML5 and CSS3. I got oppertunity to work on it when i was in R Systems.This is a live website.",
+    info: "This is a neat and clean website. In This website I applied HTML5 and CSS3. I got oppertunity to work on it when i was in R Systems.This is a live website.",
     featured: ["HTML", "CSS", "Photoshop"],
     popup: false,
   },
@@ -82,8 +80,7 @@ const workInfo = [
     skill: hcj,
     component: <Htmlwork name="cameye" />,
     btnTxt: "Click to View",
-    info:
-      "This is one of my latest work. In This website I applied HTML5, CSS3 and Javascrip. I got oppertunity to work on it when i was in KENT Ro Systems.This is a live website.",
+    info: "This is one of my latest work. In This website I applied HTML5, CSS3 and Javascrip. I got oppertunity to work on it when i was in KENT Ro Systems.This is a live website.",
     featured: ["HTML", "CSS", "Javascript", "Photoshop"],
     popup: false,
   },
@@ -97,8 +94,7 @@ const workInfo = [
     skill: hc,
     component: <Htmlwork name="showmedia" />,
     btnTxt: "Click to View",
-    info:
-      "Showmedia is a advertiment house,  In This website I applied HTML5 and CSS3. I got oppertunity to work on it when i was in R Systems. This is a live website. ",
+    info: "Showmedia is a advertiment house,  In This website I applied HTML5 and CSS3. I got oppertunity to work on it when i was in R Systems. This is a live website. ",
     featured: ["HTML", "CSS", "Photoshop"],
     popup: false,
   },
@@ -112,8 +108,7 @@ const workInfo = [
     skill: hc,
     component: <Htmlwork name="teamwork" />,
     btnTxt: "Click to View",
-    info:
-      "This website is for customized costume design for team apparel. In This website I applied HTML5 and CSS3. I got oppertunity to work on it when i was in R Systems. This is a live website.",
+    info: "This website is for customized costume design for team apparel. In This website I applied HTML5 and CSS3. I got oppertunity to work on it when i was in R Systems. This is a live website.",
     featured: ["HTML", "CSS", "Photoshop"],
     popup: false,
   },
@@ -127,8 +122,7 @@ const workInfo = [
     skill: hcj,
     component: <Htmlwork name="kentro" />,
     btnTxt: "Click to View",
-    info:
-      "This is also one of the Latest work. In This website I applied HTML5, CSS3 and Javascrip. I got oppertunity to work on it when i was in KENT Ro Systems.This is a live website.",
+    info: "This is also one of the Latest work. In This website I applied HTML5, CSS3 and Javascrip. I got oppertunity to work on it when i was in KENT Ro Systems.This is a live website.",
     featured: ["HTML", "CSS", "Javascript", "Photoshop"],
     popup: false,
   },
@@ -142,8 +136,7 @@ const workInfo = [
     skill: hc,
     component: <Htmlwork name="rsystems" />,
     btnTxt: "Click to View",
-    info:
-      "In This website I applied HTML5 and CSS3. I got oppertunity to work on it when i was in R Systems. This is a live website.",
+    info: "In This website I applied HTML5 and CSS3. I got oppertunity to work on it when i was in R Systems. This is a live website.",
     featured: ["HTML", "CSS", "Photoshop", "Javascript"],
     popup: false,
   },
@@ -157,8 +150,7 @@ const workInfo = [
     skill: hc,
     component: <Htmlwork name="bw" />,
     btnTxt: "Click to View",
-    info:
-      "In this website I applied HTML5 and CSS3. I got oppertunity to work on it when i was in Sparrow Interactive. This is a live website.",
+    info: "In this website I applied HTML5 and CSS3. I got oppertunity to work on it when i was in Sparrow Interactive. This is a live website.",
     featured: ["HTML", "CSS", "Photoshop"],
     popup: false,
   },
@@ -172,8 +164,7 @@ const workInfo = [
     skill: react,
     component: <Randomtour />,
     btnTxt: "Click to View",
-    info:
-      "In this website I applied React Js, HTML5, CSS3, Fetch API, useState, UseEffect, findIndex method ",
+    info: "In this website I applied React Js, HTML5, CSS3, Fetch API, useState, UseEffect, findIndex method ",
     featured: [
       "React",
       "HTML",
@@ -368,8 +359,7 @@ const workInfo = [
     skill: react,
     component: <Foodmenu />,
     btnTxt: "Click to view",
-    info:
-      'This is a react work, In this component i used "Filter()" to filter data, and applied React Material Design for ripple effects.',
+    info: 'This is a react work, In this component i used "Filter()" to filter data, and applied React Material Design for ripple effects.',
     featured: [
       "React",
       "HTML",
@@ -399,7 +389,7 @@ const workInfo = [
       "CSS",
       "Javascript",
       "querySelector",
-      
+
       "map()",
       "localStorage()",
       "destructuring{}",

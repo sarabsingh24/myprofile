@@ -2,7 +2,7 @@ import React from "react";
 import Paper from "@material-ui/core/Paper";
 import Button from "@material-ui/core/Button";
 import { Link } from "react-router-dom";
-import { PopupContext } from "../../pages/home/Home";
+import { PopupContext } from "../../pages/singlepage/SinglePage";
 import "./style.css";
 export default function SingleThumb({
   comp,

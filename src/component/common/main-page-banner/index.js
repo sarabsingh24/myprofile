@@ -2,7 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
-import Container from "../container";
+import Container from "../container/Container";
 import Box from "@material-ui/core/Box";
 import sarab_pic from "../../../asset/home/sarab.png";
 import { Grid } from "@material-ui/core";
@@ -27,15 +27,17 @@ export default function Index() {
             className="small-discription"
             gutterBottom
           >
-            I worked with top level MNCs. I have 15+
-            years of experiance in web development field.
+            I have 15+ years of experiance in web development field. As a
+            developer I worked with top level MNCs in India. I have a great
+            experiance for creating clean, responsive web applications using
+            JavaScript, React Js, HTML, and CSS etc.
           </Typography>
 
           <Button
             variant="outlined"
             color="secondary"
             size="small"
-            href="mailto:sarabpreet33@gmail.com"
+            href="mailto:sarabsingh@sarabsinghtech.com"
             target="_blank"
           >
             Contact Now

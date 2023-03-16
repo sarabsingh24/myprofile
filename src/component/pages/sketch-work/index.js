@@ -1,10 +1,10 @@
 import React from "react";
 import WorkThumb from "../../common/work-thumb";
-import Column from "../../common/column";
+import Column from "../../common/column/Column";
 import { workInfo } from "../../data/workInfo";
 import MainPageBanner from "../../common/main-page-banner";
 import ProfileLink from "../../common/proflle-link";
-import Container from "../../common/container";
+import Container from "../../common/container/Container";
 export default function Index() {
   return (
     <>

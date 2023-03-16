@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import Bottomstrip from "../../common/bottom-strip";
+import Bottomstrip from "../../common/bottom-strip/BottomStrip";
 import Button from "@material-ui/core/Button";
 import IconButton from "@material-ui/core/IconButton";
 import { workInfo } from "../../data/workInfo";
@@ -14,7 +14,7 @@ import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import Typography from "@material-ui/core/Typography";
 import "./style.css";
 
-export default function Index() {
+export default function Preview() {
   const [data, setDatas] = React.useState(workInfo);
   const [index, setIndex] = React.useState(0);
   console.log(data);

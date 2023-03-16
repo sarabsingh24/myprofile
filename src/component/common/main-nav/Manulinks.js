@@ -39,7 +39,7 @@ export default function Manulinks({ showMenuHandeler }) {
             Contact
           </Link>
         </Button>
-        <Button className="link">
+        {/* <Button className="link">
           <Link
             to="contact"
             spy={true}
@@ -49,7 +49,7 @@ export default function Manulinks({ showMenuHandeler }) {
           >
             Payment
           </Link>
-        </Button>
+        </Button> */}
       </div>
     </>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import Bottomstrip from "../../common/bottom-strip";
+import Bottomstrip from "../bottom-strip/BottomStrip";
 import "./style.css";
 export default function Footer() {
   return (

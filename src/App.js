@@ -1,17 +1,25 @@
 import React from "react";
-
-import Pages from './component/pages';
-
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Preview from "./component/pages/preview/indexOLD";
+import SinglePage from "./component/pages/singlepage/SinglePage";
+import ErrorPage from "./component/pages/error-page/ErrorPage";
 import "./asset/css/common.css";
 
-function App() {
+const pageScrollTo = React.createContext();
+
+export default function App() {
   return (
     <>
-      
-        <Pages />
-      
+      <Router basename="/">
+        <Switch>
+          <Route exact path="/" component={SinglePage} />
+          <Route exact path="/preview/:id" component={Preview} />
+          <Route path="*" component={ErrorPage} />
+        </Switch>
+      </Router>
     </>
   );
 }
 
-export default App;
+
+export { pageScrollTo };

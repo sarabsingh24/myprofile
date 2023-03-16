@@ -1,15 +1,15 @@
 import React from 'react';
 import Typography from "@material-ui/core/Typography";
-import Container from "../../common/container";
-import Column from "../../common/column";
+import Container from "../../common/container/Container";
+import Column from "../../common/column/Column";
 import {ServiceText} from '../../data/service'
 
 
 export default function Services() {
     return (
       <section className="service-bg" id="services">
-        <div className="parallax">
-          <div className="bg-trans">
+        
+          <div className="">
             <Container>
               <Typography
                 variant="button"
@@ -40,7 +40,7 @@ export default function Services() {
               </Column>
             </Container>
           </div>
-        </div>
+     
       </section>
     );
 }
