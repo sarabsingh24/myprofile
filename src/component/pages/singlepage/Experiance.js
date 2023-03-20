@@ -50,7 +50,7 @@ export default function Services() {
                     className="points"
                     gutterBottom
                   >
-                    As a Frontend Developer in React, I worked on functional
+                    As a frontend developer in ReactJs, I worked on functional
                     component, hooks, context API, Redux, and API integration. I
                     used the latest features of Javascript like The arrow
                     function, destructor, spread & rest operator, ternary
@@ -83,8 +83,8 @@ export default function Services() {
                     gutterBottom
                     className="points"
                   >
-                    As a Frontend Developer, I got an opportunity to work in
-                    React, Javascript, using HTML CSS. Here I created many
+                    As a frontend developer, I got an opportunity to work in
+                    ReactJs, Javascript, using HTML CSS. Here I created many
                     Websites, emailers, and AMP pages for SEO purposes.
                   </Typography>
                 </div>
@@ -102,7 +102,7 @@ export default function Services() {
                     align="left"
                     display="block"
                     className="date"
-                    gutterBottom
+                    gutterBottom 
                   >
                     2007 to 2015 .....(8 Years)
                   </Typography>
@@ -132,7 +132,7 @@ export default function Services() {
                     variant="subtitle2"
                     align="left"
                     display="block"
-                    className="points"
+                    className="date"
                     gutterBottom
                   >
                     2005 to 2007 .....(2 Years)
@@ -141,6 +141,7 @@ export default function Services() {
                     variant="body2"
                     align="left"
                     display="block"
+                    className="points"
                     gutterBottom
                   >
                     Worked as Graphic Designer
@@ -159,7 +160,7 @@ export default function Services() {
                     variant="subtitle2"
                     align="left"
                     display="block"
-                    className="points"
+                    className="date"
                     gutterBottom
                   >
                     2003 to 2005 .....(2 Years)
@@ -168,6 +169,7 @@ export default function Services() {
                     variant="subtitle2"
                     align="left"
                     display="block"
+                    className="points"
                     gutterBottom
                   >
                     Worked as Graphic Designer

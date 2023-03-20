@@ -1,6 +1,5 @@
 import React from "react";
 import MainPageBanner from "../../common/main-page-banner";
-import About from "./About";
 import Experiance from "./Experiance";
 import Latestwork from "./Latestwork";
 import Services from "./Services";
@@ -29,8 +28,6 @@ export default function SinglePage() {
       {popup && <Popup setPopup={setPopup} compo={compo} type={type} />}
       <MainNav />
       <MainPageBanner />
-      {/* <About /> */}
-
       <PopupContext.Provider value={popupHandeler}>
         <Latestwork />
       </PopupContext.Provider>

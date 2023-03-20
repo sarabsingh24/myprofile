@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Container from "../../common/container/Container";
 import Workthumb from "../../common/work-thumb";
 import Column from "../../common/column/Column";
 import ProfileLink from "../../common/proflle-link";
 import { workInfo } from "../../data/workInfo";
 import Typography from "@material-ui/core/Typography";
-import { pageScrollTo } from "../indexOLD";
+
 import "./style.css";
 
 export default function Index() {

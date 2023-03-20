@@ -115,7 +115,7 @@
   padding: 40px 24px;
   border: 1px solid #f7f7f7;
   /* box-shadow: 0 0 10px 3px rgb(253 248 247 / 69%); */
-  box-shadow: 0 20px 10px -15px rgb(197 192 249 / 20%);; 
+  box-shadow: 0 20px 10px -15px rgb(197 192 249 / 20%);
   border-radius: 10px;
   transition: all 1s;
   text-align: center;
@@ -124,7 +124,6 @@
 
   justify-content: center;
   align-items: self-start;
-  
 }
 
 .service-items .icon {
@@ -139,7 +138,7 @@
   color: var(--clr-grey-5);
 }
 
-.error-items{
+.error-items {
   background: rgba(255, 255, 255, 1);
   padding: 40px 24px;
   border: 1px solid #f7f7f7;
@@ -149,7 +148,7 @@
   text-align: center;
   display: grid;
   gap: 18px;
-    width:32%;
+  width: 32%;
 }
 
 .parallax {
@@ -189,11 +188,6 @@
     rgba(255, 106, 149, 0.7) 100%
   );
 }
-
-
-
-
-
 
 .experiance-two-column {
   display: grid;
@@ -247,7 +241,7 @@
   grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
   justify-content: center;
   align-items: center;
-  background: url('../../../asset/images/map-bg.jpeg');
+  background: url("../../../asset/images/map-bg.jpeg");
 }
 .google-map-height {
   height: 100%;
@@ -257,10 +251,9 @@
   margin: 0 auto;
 }
 
-.mail-id{
-  color:var(--pink)
+.mail-id {
+  color: var(--pink);
 }
-
 
 @media (max-width: 980px) {
   .three-column {
@@ -272,7 +265,7 @@
 
   .contact-bg {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    height:280px;
+    height: 280px;
   }
   .intro-box {
     padding: 0;
@@ -285,9 +278,9 @@
     grid-template-columns: 1fr;
   }
 
-  .company  .MuiTypography-alignLeft {
+  .company .MuiTypography-alignLeft {
     text-align: center;
-}
+  }
   .company .icon {
     width: 100%;
     padding: 24px;
@@ -296,10 +289,10 @@
     height: 460px;
   }
   .contact-form {
-    margin: 48px 16px;
+    margin: 48px auto;
     padding-bottom: 140px;
   }
-  .content-box{
+  .content-box {
     height: calc(100vh - 100px);
   }
 }
