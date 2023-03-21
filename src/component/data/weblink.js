@@ -11,27 +11,27 @@ const weblinks = [
   {
     name: "countdown",
 
-    url: "https://sarabsingh24.github.io/htmljs/countdown/",
+    url: "https://www.sarabsinghtech.com/htmljs/countdown/",
   },
   {
     name: "accordian",
 
-    url: "https://sarabsingh24.github.io/htmljs/accordian/",
+    url: "https://www.sarabsinghtech.com/htmljs/accordian/",
   },
   {
     name: "foodmenu",
 
-    url: "https://sarabsingh24.github.io/htmljs/foodmenu/",
+    url: "https://www.sarabsinghtech.com/htmljs/foodmenu/",
   },
   {
     name: "pagination",
 
-    url: "https://sarabsingh24.github.io/htmljs/project_pagination/main.html",
+    url: "https://www.sarabsinghtech.com/htmljs/project_pagination/main.html",
   },
   {
     name: "rsystems",
     img: rsystemsImg,
-    url: "http://rsystems.com/",
+    url: "http://www.rsystems.com/",
   },
   {
     name: "bw",
