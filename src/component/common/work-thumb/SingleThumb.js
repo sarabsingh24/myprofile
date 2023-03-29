@@ -32,7 +32,7 @@ export default function SingleThumb({
     }
   };
 
-  console.log(image, skill);
+  console.log(`https://www.sarabsinghtech.com${image}`, skill);
 
   return (
     <div
@@ -64,7 +64,11 @@ export default function SingleThumb({
           </PopupContext.Consumer>
         </div>
 
-        <img src={image} alt={comp} className="thumb-image" />
+        <img
+          src={`https://www.sarabsinghtech.com${image}`}
+          alt={comp}
+          className="thumb-image"
+        />
         <div className="thumb-info">
           <div className="temp-type">
             <span className="txt-lable"></span> {comp}

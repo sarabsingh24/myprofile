@@ -24,7 +24,7 @@ function Htmlwork({ name }) {
       {list.img ? (
         <div className="preview-image-cont">
           <img
-            src={list.img}
+            src={`https://www.sarabsinghtech.com${list.img}`}
             alt={list.name}
             className="preview-image"
           />
