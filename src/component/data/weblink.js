@@ -9,19 +9,20 @@ import teamworkImg from "../../asset/images/preview/teamworkImg.png";
 const weblinks = [
   {
     name: "countdown",
-    url: "https://github.com/sarabsingh24/htmljs/master/countdown/",
+    url: "https://sarabsingh24.github.io/html-work/countdown/index.html",
   },
   {
     name: "accordian",
-    url: "https://github.com/sarabsingh24/htmljs/master/accordian/",
+    url: "https://sarabsingh24.github.io/html-work/accordian/index.html",
   },
   {
     name: "foodmenu",
-    url: "https://github.com/sarabsingh24/htmljs/master/foodmenu/",
+    url: "https://sarabsingh24.github.io/html-work/foodmenu/index.html",
   },
   {
     name: "pagination",
-    url: "https://github.com/sarabsingh24/htmljs/master/project_pagination/main.html",
+    url: "https://sarabsingh24.github.io/html-work/project_pagination/main.html",
+   
   },
   {
     name: "rsystems",
