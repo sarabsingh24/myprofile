@@ -16,6 +16,8 @@ const useStyles = makeStyles({
 
 export default function FoodContainer({ title, desc, img, price }) {
   const classes = useStyles();
+
+  console.log(img);
   return (
     <div>
       <Card className={classes.root}>

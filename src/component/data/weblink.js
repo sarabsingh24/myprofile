@@ -6,27 +6,22 @@ import rsystemsImg from "../../asset/images/preview/rsystemsImg.png";
 import showmediaImg from "../../asset/images/preview/showmediaImg.png";
 import teamworkImg from "../../asset/images/preview/teamworkImg.png";
 
-
 const weblinks = [
   {
     name: "countdown",
-
-    url: "https://www.sarabsinghtech.com/htmljs/countdown/",
+    url: "https://github.com/sarabsingh24/htmljs/master/countdown/",
   },
   {
     name: "accordian",
-
-    url: "https://www.sarabsinghtech.com/htmljs/accordian/",
+    url: "https://github.com/sarabsingh24/htmljs/master/accordian/",
   },
   {
     name: "foodmenu",
-
-    url: "https://www.sarabsinghtech.com/htmljs/foodmenu/",
+    url: "https://github.com/sarabsingh24/htmljs/master/foodmenu/",
   },
   {
     name: "pagination",
-
-    url: "https://www.sarabsinghtech.com/htmljs/project_pagination/main.html",
+    url: "https://github.com/sarabsingh24/htmljs/master/project_pagination/main.html",
   },
   {
     name: "rsystems",

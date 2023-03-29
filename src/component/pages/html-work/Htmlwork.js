@@ -15,13 +15,19 @@ function Htmlwork({ name }) {
 
   const[winwidth, setWinWidth] = React.useState(window.innerWidth)
 
-  let list = weblink.find((item) => item.name == name);
+  let list = weblink.find((item) => item.name === name);
+
+  console.log((list))
 
   return (
     <>
       {list.img ? (
         <div className="preview-image-cont">
-          <img src={list.img} alt={list.name} className="preview-image" />
+          <img
+            src={list.img}
+            alt={list.name}
+            className="preview-image"
+          />
           <Button
             variant="outlined"
             color="primary"
@@ -34,9 +40,13 @@ function Htmlwork({ name }) {
           </Button>
         </div>
       ) : (
+        // eslint-disable-next-line jsx-a11y/iframe-has-title
         <iframe
-          src={list.url} width="100%"
-          className={winwidth < 980 ? "window-height-mob" : "window-height-desk" }
+          src={list.url}
+          width="100%"
+          className={
+            winwidth < 980 ? "window-height-mob" : "window-height-desk"
+          }
           frameborder="0"
         />
       )}

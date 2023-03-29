@@ -43,7 +43,7 @@ export default function Index() {
               style={{
                 width: "106px",
                 height: "106px",
-                margin: "0 auto",
+                margin: "0 auto 24px",
                 border: "4px solid #fff",
               }}
             />

@@ -14,10 +14,9 @@ export default function SingleThumb({
   btnTxt,
   component,
   popup,
-  skill
+  skill,
 }) {
   const [name, setName] = React.useState("relative");
-
   const animationEffect = React.useRef(null);
 
   const mouseOverHandeler = () => {
@@ -33,6 +32,8 @@ export default function SingleThumb({
     }
   };
 
+  console.log(image, skill);
+
   return (
     <div
       className={name}
@@ -43,18 +44,15 @@ export default function SingleThumb({
       <div elevation={0} className="relative bg-shadow">
         <div className="animited-box">
           <PopupContext.Consumer>
-           
             {(popupHandeler) => {
               return (
-
-                
                 <Button
                   variant="contained"
                   color="secondary"
                   size="small"
                   className="view-btn"
                   to={`/preview/${id}`}
-                component = { Link}
+                  component={Link}
                   // onClick={popup && (() => popupHandeler(component, comp))}
                   // href={!popup && component}
                   // target={!popup && "_blank"}
@@ -73,7 +71,8 @@ export default function SingleThumb({
           </div>
           <div className="txt-small">
             <span className="txt-lable">
-               <small>{type}</small> <img src={skill} alt="logo" style={{width:"80px"}} />
+              <small>{type}</small>{" "}
+              <img src={skill} alt="logo" style={{ width: "80px" }} />
             </span>
             {/* <span className="txt-lable">Tool:</span>
             {tool.map((item, index) => {
